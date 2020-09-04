@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	outline:none !important;
+}
+a:hover
+{
+	cursor:pointer;
+}
+head
+{
+	link href="images/SS GANDHI COLLEGE [137127].png" rel="icon"
+}
+body
+{ 	
+	margin:0;	
+	padding:0;
+	background:rgba(208,208,208,1.00);
+	font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+	font-weight:500;	
+	word-break:keep-all;
+}
+
+header
+{
+	word-break:keep-all;
+}
+
+.logo
+{
+	width:100px;
+}
+
+#header_title
+{
+	font-variant:small-caps;
+	margin-top:33px;
+}
+section
+{
+	padding:1% 0 2% 0;
+	margin:10px 0 10px 0;
+}
+article
+{
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+	  height:350px;
+      margin: auto;
+ }
+
+footer
+{	
+	padding:1% 1% 0 1%;
+	background-color:grey;
+	margin:0 -15px 0 -15px;
+}
+footer div ul 
+{
+	text-align:right;
+}
+footer div ul li a
+{
+	color:white;
+	text-decoration:none;
+}
+footer div ul li a:hover
+{
+	color:black;
+	text-decoration:none;
+}
+
+.text-sm
+{
+	font-size:14px;
+}
+.text-lg
+{
+	font-size:34px;
+}
+.text-md
+{
+	font-size:15px;
+}
+#admin_form
+{
+	width:100%;
+	height:100%;
+	position:fixed;
+	background-color:rgba(0,0,0,0.5);
+	top:0;
+	left:0;
+	z-index:9999;
+	display:none;
+	text-align:center;
+	padding-top:15%;	
+}
+.admin_sidemenu ul li{
+	background:grey;
+	padding:10px;
+	margin:5px;
+	color:black;
+	cursor:pointer;
+}
+.admin_sidemenu ul li:hover
+{
+	background: rgba(209,209,209,1.00);
+}
+.admin_sidemenu ul a{
+	color:black;
+	text-decoration:none;
+}
+.box
+{
+	border:1px solid grey;	
+	padding:8px;
+	color:#3B3738;
+	background:rgba(209,209,209,1.00);	
+	text-align:center;
+	margin-top:10px;
+	margin-left:35px;
+	margin-bottom:12px;
+}
+.counter
+{
+	border:1px solid grey;
+	height:45px;
+	background:white;
+	width:45px;
+	line-height:45px;
+	text-align:center;
+	border-radius:75px;
+	margin-top:12px;
+	margin-bottom:12px;	
+	color:grey;
+}
+.box:hover
+{
+	transition:0.5s;	
+	color:black;
+	cursor:pointer;
+	border-radius:5px;
+}
+.box:hover .counter
+{
+	background:grey;
+	color:white;		
+}
+#show
+{
+	text-align:center;
+}
+.load_image
+{
+	margin-top:66px;
+}
+#map
+{
+	height:300px;
+	width:400px;
+}
+.tabspace
+{
+	padding-left:3em;
+}
+
+@media(max-width:992px)
+{
+	.logo
+	{
+		width:100px;
+	}
+	#header_title
+	{
+		font-variant:small-caps;
+		margin-top:33px;
+	}
+	.carousel-inner > .item > img,
+	  .carousel-inner > .item > a > img {
+		  width: 55%;
+		  height:200px;
+		  margin: auto;
+		 }
+	footer
+	{	
+		margin:0 -9px 0 -9px;
+	}
+
+	.text-sm
+	{
+		font-size:11px;
+	}
+	.text-lg
+	{
+		font-size:27px;
+	}
+	.text-md
+	{
+		font-size:14px;
+	}
+	.load_image
+	{
+		margin-top:177px;
+	}
+	.admin_sidemenu ul li{
+		padding:2px;
+	}
+	#map
+	{
+	height:200px;
+	width:300px;
+	}
+
+}
+@media(max-width:768px)
+{
+	.logo
+	{
+		width:80px;
+	}
+	#header_title
+	{
+		font-variant:small-caps;
+		margin-top:32px;
+	}
+	.text-sm
+	{
+		font-size:10px;
+	}
+	.text-lg
+	{
+		font-size:20px;
+	}
+	
+	.text-md
+	{
+		font-size:11px;
+	}
+	footer
+	{	
+		padding:1% 1% 0 1%;
+		background-color:grey;
+		margin:0 -7px 0 -13px;		
+	}	
+	.box{
+		margin-left:7px;
+	}
+}
+@media(max-width:466px)
+{
+	.logo
+	{
+		width:50px;
+	}
+	#header_title
+	{
+		font-variant:small-caps;
+		margin-top:4px;
+	}
+	footer
+	{	
+		margin:0 -4px 0 -4px;
+	}
+		.text-sm
+	{
+		font-size:10px;
+	}
+	.text-lg
+	{
+		font-size:14px;
+	}
+	
+	.text-md
+	{
+		font-size:10px;
+	}
+
+
+}

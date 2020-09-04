@@ -1,0 +1,11 @@
+	link name in article page
+	link logo in all pages
+put notes on all forms like upload_file form
+gtu logo on left of header
+	add change pass opetion in admin side
+	move deleted galery/ncc images
+xa-sm-md formatting
+photo of princi
+session check in all page
+peon qualification change
+

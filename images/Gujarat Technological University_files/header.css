@@ -1,0 +1,94 @@
+﻿/* Styles for each menu-item. */.lavaLamp li a
+{
+	position: relative;
+	overflow: hidden;
+	outline: none;
+	z-index: 10;
+	float: left;
+	display: block;
+	margin: auto 9px;
+}
+.top_bar
+{
+	background: url("../NewSite/images/menutop_bg.gif") repeat-x scroll 0 0 transparent;
+	width: 1020px;
+	height: 36px;
+	background-color: #585B5D;
+	color: #000000;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+ul.top_menu li
+{
+	display: inline;
+	font-size: 11px;
+	font-weight: bold;
+	
+}
+ul.top_menu
+{
+	display: block;
+	float: left;
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: 2px;
+	width:1020px;
+}
+.top_menu a.nav:link, .top_menu a.nav:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.top_menu a.nav:hover
+{
+	color: #93D1B8;
+}
+ul.top_menu li.divider
+{
+	background: url("../NewSite/images/menutop_divider.gif" ) no-repeat scroll center center transparent;
+	display: inline;
+	float: left;
+	height: 30px;
+	width: 4px;
+}
+.lavaLamp
+{
+	position: relative;
+	height: 36px;
+	width: 1020px;
+	overflow: hidden;
+}
+* HTML .lavaLamp
+{
+	position: relative;
+	height: 36px;
+	width: 920px;
+	overflow: hidden;
+}
+/* Force the list to flow horizontally */.lavaLamp li
+{
+	float: left;
+	list-style: none;
+}
+.lavaLamp ul
+{
+	margin-top: 2px;
+}
+/* Represents the background of the highlighted menu-item. */.lavaLamp li.back
+{
+	/*background: url("../images/lava.gif") no-repeat right -30px;*/
+	width: 9px;
+	height: 30px;
+	z-index: 8;
+	position: absolute;
+	border: 1px px dotted black;
+	background-color: gray;
+}
+.lavaLamp li.back .left
+{
+	border: 1px px dotted black;
+	background-color: gray; /* background: url("../images/lava.gif") no-repeat top left;*/
+	height: 30px;
+	margin-right: 9px;
+}
